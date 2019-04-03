@@ -9,6 +9,12 @@ package br.com.avantews.exception;
  *
  * @author avantews
  */
-class NomeInvalidoException {
+public class NomeInvalidoException extends Exception {
+
+    public NomeInvalidoException() {
+        super();
+    }
+    
+    
     
 }

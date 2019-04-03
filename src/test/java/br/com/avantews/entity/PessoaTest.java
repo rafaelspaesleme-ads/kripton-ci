@@ -6,6 +6,7 @@
 package br.com.avantews.entity;
 
 import br.com.avantews.entity.Pessoa;
+import br.com.avantews.exception.NomeInvalidoException;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -21,13 +22,10 @@ public class PessoaTest {
         assertNotNull(pessoa);
     }
     
-    @Test
-    public void entityPessoaNomeNotNull(){
+    @Test(expected = NomeInvalidoException.class)
+    public void entityPessoaNomeNotNull() throws Exception{
         Pessoa pessoa = new Pessoa();
         pessoa.setNome(null);
-        
-        assertNotNull(pessoa);
-        
     }
     
 }
