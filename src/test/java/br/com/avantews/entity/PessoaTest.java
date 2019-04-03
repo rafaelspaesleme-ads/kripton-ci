@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.avantews;
+package br.com.avantews.entity;
 
+import br.com.avantews.entity.Pessoa;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -18,6 +19,15 @@ public class PessoaTest {
     public void criaEntityPessoa(){
         Pessoa pessoa = new Pessoa();
         assertNotNull(pessoa);
+    }
+    
+    @Test
+    public void entityPessoaNomeNotNull(){
+        Pessoa pessoa = new Pessoa();
+        pessoa.setNome(null);
+        
+        assertNotNull(pessoa);
+        
     }
     
 }
