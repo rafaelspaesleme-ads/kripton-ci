@@ -7,7 +7,6 @@ public class PessoaTest {
 
     @Test
     public void criaEntityPessoa(){
-
         
     }
     
