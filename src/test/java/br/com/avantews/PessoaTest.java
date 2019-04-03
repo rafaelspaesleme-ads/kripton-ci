@@ -20,6 +20,8 @@ public class PessoaTest {
     
     @Test
     public void criaEntityPessoa(){
+        Pessoa pessoa = new Pessoa();
+        assertNotNull(pessoa);
     }
     
 }
