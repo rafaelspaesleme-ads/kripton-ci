@@ -1,5 +1,8 @@
 package br.com.avantews.entity;
 
+import br.com.avantews.exception.NomeInvalidoException;
+import jdk.internal.jline.internal.Nullable;
+
 public class Pessoa {
     
     private String nome;
@@ -9,7 +12,10 @@ public class Pessoa {
     public Pessoa() {
     }
 
-    public Pessoa(String nome, String idade, String sexo) {
+    public Pessoa(String nome, String idade, String sexo) throws NomeInvalidoException {
+        if (nome == null || "".equals(nome.trim())) {
+            throw new NomeInvalidoException();
+        }
         this.setNome(nome);
         this.setIdade(idade);
         this.setSexo(sexo);
