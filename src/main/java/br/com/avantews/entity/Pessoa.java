@@ -1,7 +1,6 @@
 package br.com.avantews.entity;
 
 import br.com.avantews.exception.NomeInvalidoException;
-import jdk.internal.jline.internal.Nullable;
 
 public class Pessoa {
 
