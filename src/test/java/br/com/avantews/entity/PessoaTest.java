@@ -24,6 +24,6 @@ public class PessoaTest {
     @Test(expected = NomeInvalidoException.class)
     public void entityPessoaNomeNotNull() throws Exception {
         Pessoa pessoa = new Pessoa();
-        pessoa.setNome("");
+        pessoa.setNome("rerere");
     }
 }

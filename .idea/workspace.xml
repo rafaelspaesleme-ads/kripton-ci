@@ -150,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PessoaTest.entityPessoaNomeNotNull">
     <configuration name="PessoaTest.criaEntityPessoa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kripton-ci-root" />
       <extension name="coverage">
@@ -167,8 +167,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PessoaTest.entityPessoaNomeNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kripton-ci-root" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.avantews.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.avantews.entity" />
+      <option name="MAIN_CLASS_NAME" value="br.com.avantews.entity.PessoaTest" />
+      <option name="METHOD_NAME" value="entityPessoaNomeNotNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PessoaTest.entityPessoaNomeNotNull" />
         <item itemvalue="JUnit.PessoaTest.criaEntityPessoa" />
       </list>
     </recent_temporary>
@@ -185,16 +202,20 @@
       <updated>1554343196015</updated>
       <workItem from="1554343200602" duration="3222000" />
       <workItem from="1554347023340" duration="159000" />
-      <workItem from="1554347217985" duration="793000" />
+      <workItem from="1554347217985" duration="1227000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PessoaTest_criaEntityPessoa - 2019.04.04 at 00h 16m 35s.xml">
+      <configuration name="PessoaTest.criaEntityPessoa" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4174000" />
+    <option name="totallyTimeSpent" value="4608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="800" y="0" width="1366" height="739" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -206,7 +227,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32998326" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32998326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,7 +235,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998326" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32998326" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
